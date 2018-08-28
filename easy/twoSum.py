@@ -1,3 +1,4 @@
+# Question : 1
 # Time : O(n)
 # Size : O(N)
 # Runtime: 40 ms 
