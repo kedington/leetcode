@@ -1,4 +1,4 @@
-# LeetCode
+# [LeetCode](https://leetcode.com/kedington/)
 Catlog of LeetCode questions I have done. 
 
 All questions done in Python3. 
