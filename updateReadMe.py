@@ -17,8 +17,6 @@ with open(read_me, "r+") as f:
 			if int(cur_num.group(1)) > int(question.number):
 				break
 	lines.insert(idx, line_template.format(question.number, question.link, question.name, question.difficulty, question.file_name))
-	print(lines)
-
+	f.seek(0)
+	f.writelines(lines)
 	
-
-
