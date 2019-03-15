@@ -1,4 +1,5 @@
 import re
+import os
 from question import Question
 
 question = Question("Longest Substring Without Repeating Characters", "3", "https://leetcode.com/problems/longest-substring-without-repeating-characters/", "medium", "lengthOfLongest.py")
@@ -21,4 +22,13 @@ def update_readme(question):
 		lines.insert(idx, line_template.format(question.number, question.link, question.name, question.difficulty, question.file_name))
 		f.seek(0)
 		f.writelines(lines)
+
+def name_to_link(name):
+	url = "https://leetcode.com/problems/"
+	
+	
+def add_questions():
+	for filename in os.listdir("easy"):
+		
+		
 	
