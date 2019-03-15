@@ -1,5 +1,6 @@
 # [LeetCode](https://leetcode.com/kedington/)
-[![Build Status](https://travis-ci.com/Kedington/leet-code.svg?branch=master)](https://travis-ci.com/Kedington/leet-code)
+[![Build Status](https://travis-ci.com/kedington/leet-code.svg?branch=master)](https://travis-ci.com/kedington/leet-code)
+
 Catlog of LeetCode questions I have completed. All questions done in Python3.
 
 ## Table of Contents
