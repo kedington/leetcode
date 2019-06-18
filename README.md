@@ -1,5 +1,5 @@
 # [LeetCode](https://leetcode.com/kedington/)
-[![Build Status](https://travis-ci.com/kedington/leet-code.svg?branch=master)](https://travis-ci.com/kedington/leet-code)
+[![Build Status](https://travis-ci.com/kedington/leetcode.svg?branch=master)](https://travis-ci.com/kedington/leetcode)
 
 Catlog of LeetCode questions I have completed. All questions done in Python3.
 
