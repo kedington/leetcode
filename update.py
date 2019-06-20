@@ -2,11 +2,11 @@ import re
 import os
 from question import Question
 
-question = Question("Longest Substring Without Repeating Characters", "3", "https://leetcode.com/problems/longest-substring-without-repeating-characters/", "medium", "lengthOfLongest.py")
+#question = Question("Longest Substring Without Repeating Characters", "3", "https://leetcode.com/problems/longest-substring-without-repeating-characters/", "medium", "lengthOfLongest.py")
 
 readme = "README.md"
 
-line_template = "| [{0}.]({1}) | [{2}]({3}/{4}) |\n"
+line_template = "| [{0}.]({1}) | [{2}](problems/{4}) | {3} | |\n"
 
 expression_match = "\| \[(.*)\.\]"
 
@@ -28,7 +28,15 @@ def name_to_link(name):
 	
 	
 def add_questions():
-	for filename in os.listdir("easy"):
+	for filename in os.listdir("problems"):
+		number, name = filename.split('_')
+		with open("problems/{}/solution.py".format(filename), "r") as f:
+			for line in f:
+				if "Difficulty" in line:
+					difficulty = line.split(':')[1].strip()
+					break
+		update_readme(Question(name, number, difficulty))	
+		
 		
 		
 	
