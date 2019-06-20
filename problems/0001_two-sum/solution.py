@@ -1,7 +1,9 @@
 # Question : 1
+# Difficulty: easy
 # Time : O(n)
 # Size : O(N)
 # Runtime: 40 ms 
+
 
 class Solution:
     #one Pass dictionary

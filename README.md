@@ -7,7 +7,7 @@ Catlog of LeetCode questions I have completed. All questions done in Python3.
 
 | # | Name | Difficulty | Tag | 
 |--:|------|------------|-----|
-| [1.](https://leetcode.com/problems/reverse-integer/) | [Two Sum](/easy/twoSum.py)| Easy | |
+| [1.](https://leetcode.com/problems/two-sum/) | [Two Sum](/problems/0001_two-sum)| Easy | |
 | [2.](https://leetcode.com/problems/add-two-numbers/) | [Add Two Numbers](/medium/addTwoNumbers.py)| Medium | |
 | [3.](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Longest Substring Without Repeating Characters](medium/lengthOfLongest.py) | Medium | |
 | [9.](https://leetcode.com/problems/palindrome-number/) | [Palindrome Number](/easy/palindromeNumber.py)| Easy | |

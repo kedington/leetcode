@@ -3,6 +3,7 @@
 # Space : O(1)
 # Runtime : 70 ms
 
+
 class Solution:
     def fizzBuzz(self, n):
         l = []
