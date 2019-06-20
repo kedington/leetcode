@@ -1,5 +1,5 @@
 # Question : 1
-# Difficulty: easy
+# Difficulty : Easy
 # Time : O(n)
 # Size : O(N)
 # Runtime: 40 ms 
