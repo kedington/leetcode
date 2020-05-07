@@ -27,6 +27,7 @@ Catlog of LeetCode questions I have completed. All questions done in Python3.
 | [128.](https://leetcode.com/problems/longest-consecutive-sequence/) | [Longest-consecutive-sequence](problems/128_longest-consecutive-sequence) | Hard | |
 | [136.](https://leetcode.com/problems/single-number/) | [Single-number](problems/136_single-number) | Easy | |
 | [200.](https://leetcode.com/problems/number-of-islands/) | [Number-of-islands](problems/200_number-of-islands) | Medium | |
+| [268.](https://leetcode.com/problems/missing-number/) | [Missing-number](problems/268_missing-number) | Easy | |
 | [412.](https://leetcode.com/problems/fizz-buzz/) | [Fizz-buzz](problems/412_fizz-buzz) | Easy | |
 | [448.](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Find-all-numbers-disappeared-in-an-array](problems/448_find-all-numbers-disappeared-in-an-array) | Easy | |
 | [461.](https://leetcode.com/problems/hamming-distance/) | [Hamming-distance](problems/461_hamming-distance) | Easy | |

@@ -38,5 +38,4 @@ def add_questions():
 		update_readme(Question(name, number, difficulty))	
 		
 		
-		
-	
+add_questions()	
