@@ -12,30 +12,36 @@ expression_match = "\| \[(.*)\.\]"
 
 # Searches the README for where the question should be in the table of contents and writes it
 def update_readme(question):
-	with open(readme, "r+") as f:
-		lines = f.readlines()
-		for idx in range(len(lines)):
-			cur_num = re.search(expression_match, lines[idx])
-			if cur_num:
-				if int(cur_num.group(1)) > int(question.number):
-					break
-		lines.insert(idx, line_template.format(question.number, question.link, question.name, question.difficulty, question.file_name))
-		f.seek(0)
-		f.writelines(lines)
+    with open(readme, "r+") as f:
+        lines = f.readlines()
+        already_have_flag = False
+        for idx in range(len(lines)):
+            cur_num = re.search(expression_match, lines[idx])
+            if cur_num:
+                if int(cur_num.group(1)) == int(question.number):
+                    already_have_flag = True
+                    break
+                elif int(cur_num.group(1)) > int(question.number):
+                    break
+        if not already_have_flag:
+            lines.insert(idx, line_template.format(question.number, question.link, question.name, question.difficulty, question.file_name))
+            f.seek(0)
+            f.writelines(lines)
+        
 
 def name_to_link(name):
-	url = "https://leetcode.com/problems/"
-	
-	
+    url = "https://leetcode.com/problems/"
+    
+    
 def add_questions():
-	for filename in os.listdir("problems"):
-		number, name = filename.split('_')
-		with open("problems/{}/solution.py".format(filename), "r") as f:
-			for line in f:
-				if "Difficulty" in line:
-					difficulty = line.split(':')[1].strip()
-					break
-		update_readme(Question(name, number, difficulty))	
-		
-		
-add_questions()	
+    for filename in os.listdir("problems"):
+        number, name = filename.split('_')
+        with open("problems/{}/solution.py".format(filename), "r") as f:
+            for line in f:
+                if "Difficulty" in line:
+                    difficulty = line.split(':')[1].strip()
+                    break
+        update_readme(Question(name, number, difficulty))   
+        
+        
+add_questions() 
