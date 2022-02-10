@@ -33,6 +33,7 @@ Catlog of LeetCode questions I have completed. All questions done in Python3.
 | [412.](https://leetcode.com/problems/fizz-buzz/) | [Fizz-buzz](problems/412_fizz-buzz) | Easy | |
 | [448.](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Find-all-numbers-disappeared-in-an-array](problems/448_find-all-numbers-disappeared-in-an-array) | Easy | |
 | [461.](https://leetcode.com/problems/hamming-distance/) | [Hamming-distance](problems/461_hamming-distance) | Easy | |
+| [532.](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [K-diff-pairs-in-an-array](problems/532_k-diff-pairs-in-an-array) | Medium | |
 | [595.](https://leetcode.com/problems/big-countries/) | [Big-countries](problems/595_big-countries) | Easy | |
 | [665.](https://leetcode.com/problems/non-decreasing-array/) | [Non-decreasing-array](problems/665_non-decreasing-array) | Easy | |
 | [709.](https://leetcode.com/problems/to-lower-case/) | [To-lower-case](problems/709_to-lower-case) | Easy | |
