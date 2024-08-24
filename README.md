@@ -20,6 +20,7 @@ Catlog of LeetCode questions I have completed. All questions done in Python3.
 | [21.](https://leetcode.com/problems/merge-two-sorted-lists/) | [Merge-two-sorted-lists](problems/21_merge-two-sorted-lists) | Easy | |
 | [26.](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Remove-duplicates-from-sorted-array](problems/26_remove-duplicates-from-sorted-array) | Easy | |
 | [27.](https://leetcode.com/problems/remove-element/) | [Remove-element](problems/27_remove-element) | Easy | |
+| [28.](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [Find-the-index-of-the-first-occurrence-in-a-string](problems/28_find-the-index-of-the-first-occurrence-in-a-string) | Easy | |
 | [35.](https://leetcode.com/problems/search-insert-position/) | [Search-insert-position](problems/35_search-insert-position) | Easy | |
 | [53.](https://leetcode.com/problems/maximum-subarray/) | [Maximum-subarray](problems/53_maximum-subarray) | Easy | |
 | [66.](https://leetcode.com/problems/plus-one/) | [Plus-one](problems/66_plus-one) | Easy | |

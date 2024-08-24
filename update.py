@@ -8,7 +8,7 @@ readme = "README.md"
 
 line_template = "| [{0}.]({1}) | [{2}](problems/{4}) | {3} | |\n"
 
-expression_match = "\| \[(.*)\.\]"
+expression_match = r"\| \[(.*)\.\]"
 
 # Searches the README for where the question should be in the table of contents and writes it
 def update_readme(question):
