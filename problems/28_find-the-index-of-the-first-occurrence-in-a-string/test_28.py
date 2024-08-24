@@ -1,5 +1,5 @@
 import pytest
-from problems.28_find-the-index-of-the-first-occurrence-in-a-string.solution import Solution 
+from solution import Solution 
 
 solution = Solution()
 
