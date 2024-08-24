@@ -1,5 +1,5 @@
 import pytest
-from solution import Solution 
+from problems.28_find-the-index-of-the-first-occurrence-in-a-string.solution import Solution 
 
 solution = Solution()
 
@@ -14,5 +14,3 @@ def test_strStr():
     assert solution.strStr("mississippi", "issip") == 4, "Test Case 6 Failed"
     assert solution.strStr("mississippi", "pi") == 9, "Test Case 7 Failed"
     assert solution.strStr("mississippi", "mississippi") == 0, "Test Case 8 Failed"
-
-
