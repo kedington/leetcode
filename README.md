@@ -15,6 +15,7 @@ Using Github Actions to automate tests.
 | [9.](https://leetcode.com/problems/palindrome-number/) | [Palindrome-number](problems/9_palindrome-number) | Easy | |
 | [11.](https://leetcode.com/problems/container-with-most-water/) | [Container-with-most-water](problems/11_container-with-most-water) | Medium | |
 | [12.](https://leetcode.com/problems/integer-to-roman/) | [Integer-to-roman](problems/12_integer-to-roman) | Medium | |
+| [13.](https://leetcode.com/problems/roman-to-integer/) | [Roman-to-integer](problems/13_roman-to-integer) | Easy | |
 | [14.](https://leetcode.com/problems/longest-common-prefix/) | [Longest-common-prefix](problems/14_longest-common-prefix) | Medium | |
 | [15.](https://leetcode.com/problems/3sum/) | [3sum](problems/15_3sum) | Medium | |
 | [20.](https://leetcode.com/problems/valid-parentheses/) | [Valid-parentheses](problems/20_valid-parentheses) | Easy | |
