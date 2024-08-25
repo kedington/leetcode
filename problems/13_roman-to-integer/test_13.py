@@ -1,5 +1,5 @@
 import pytest
-from problems.13_roman-to-integer.solution import Solution  
+from .solution import Solution  
 
 solution = Solution()
 
