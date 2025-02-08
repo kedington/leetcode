@@ -32,6 +32,7 @@ Using Github Actions to automate tests.
 | [200.](https://leetcode.com/problems/number-of-islands/) | [Number-of-islands](problems/200_number-of-islands) | Medium | |
 | [258.](https://leetcode.com/problems/add-digits/) | [Add-digits](problems/258_add-digits) | Easy | |
 | [268.](https://leetcode.com/problems/missing-number/) | [Missing-number](problems/268_missing-number) | Easy | |
+| [387.](https://leetcode.com/problems/first-unique-character-in-a-string/) | [First-unique-character-in-a-string](problems/387_first-unique-character-in-a-string) | Easy | |
 | [389.](https://leetcode.com/problems/find-the-difference/) | [Find-the-difference](problems/389_find-the-difference) | Easy | |
 | [412.](https://leetcode.com/problems/fizz-buzz/) | [Fizz-buzz](problems/412_fizz-buzz) | Easy | |
 | [448.](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Find-all-numbers-disappeared-in-an-array](problems/448_find-all-numbers-disappeared-in-an-array) | Easy | |
